@@ -2,19 +2,25 @@
   font-family: sans-serif;
   color: #2b2a2a;
   font-style: normal;
+  /* background-color: #f9f9f9; */
+  /* margin: 40px; */
+}
+body{
   background-color: #f9f9f9;
-  margin: 40px;
 }
 h1 {
   text-align: center;
   font-size: 80px;
+  margin: 40px;
 }
 main{
   text-align: center;
+  margin: 40px;
 }
 header {
   margin-top: -40px;
   text-align: center;
+  margin: 40px;
 }
 header > .block{
   display: inline-flex;
@@ -49,6 +55,7 @@ footer > .block > span{
   display: inline-flex;
   user-select: none;
   cursor: pointer;
+  margin: 15px;
 }
 .main-jq-button {
   width: 20%;
@@ -61,3 +68,33 @@ footer > .block > span{
   margin: auto;
   background-color: inherit;
 }
+/* Сттили таблиц */
+.user-table {
+  border-top: 1px solid #aba7a7;
+  border-bottom: 1px solid #aba7a7;
+  margin: 0 0;
+  padding: 20px 0 ;
+  margin-bottom: 1em;
+}
+.user-table button {
+  margin-left: 5px;
+}
+.user-table table{
+  display: inline-flex;
+  margin: auto;
+  border-collapse: collapse;
+}
+.user-table table > tr{
+  text-align: left;
+  border: 1px solid  black;
+  margin-bottom: 10px;
+}
+.user-table table th {
+  border-bottom: 1px solid #aba7a7;
+}
+.user-table table tr:nth-child(odd) {
+   background-color: #EAF2D3;
+ }
+ .user-table table tr:first-child {
+    background-color: inherit;
+  }
