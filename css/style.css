@@ -1,0 +1,33 @@
+*{
+  font-family: sans-serif;
+  color: #2b2a2a;
+  font-style: normal;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+main{
+  text-align: center;
+}
+.jq-button {
+  display: inline-flex;
+  width: 20%;
+  height: 120px;
+  margin: 0.5em 0.5em;
+  border: 1px solid #aba7a7;
+  border-radius: 15px;
+  background-color: #fcfcfc;
+  box-shadow:
+    0px 0px 7px 2px
+    rgba(0, 0, 0, 0.24);
+  user-select: none;
+  cursor: pointer;
+}
+.jq-button span {
+  font-size: 1.5rem;
+  display: flex;
+  margin: auto;
+  background-color: inherit;
+}
