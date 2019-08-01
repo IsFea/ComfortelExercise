@@ -3,6 +3,7 @@
   color: #2b2a2a;
   font-style: normal;
   background-color: #f9f9f9;
+  margin: 40px;
 }
 h1 {
   text-align: center;
@@ -11,19 +12,48 @@ h1 {
 main{
   text-align: center;
 }
-.jq-button {
+header {
+  margin-top: -40px;
+  text-align: center;
+}
+header > .block{
   display: inline-flex;
-  width: 20%;
-  height: 120px;
-  margin: 0.5em 0.5em;
+  margin: auto;
+  height: 2.5em;
+  width: 20rem;
+}
+header > .block > span{
+  margin: auto;
+}
+footer{
+  text-align: center;
+}
+footer > .block{
+  display: inline-flex;
+  margin: auto;
+  height: 2.5em;
+  width: 20rem;
+}
+footer > .block > span{
+  margin: auto;
+}
+.block {
   border: 1px solid #aba7a7;
   border-radius: 15px;
   background-color: #fcfcfc;
   box-shadow:
     0px 0px 7px 2px
     rgba(0, 0, 0, 0.24);
+}
+.jq-button {
+  display: inline-flex;
   user-select: none;
   cursor: pointer;
+}
+.main-jq-button {
+  width: 20%;
+  height: 120px;
+  margin: 0.5em 0.5em;
 }
 .jq-button span {
   font-size: 1.5rem;
