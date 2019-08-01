@@ -4,7 +4,7 @@ $query ="SELECT * FROM users";
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
 if($result)
 {
-  // echo '<tr><td colspan="5">Поиск: <input type="text" name="search_input" value="">';
+  //  echo '<tr><td colspan="5">Поиск: <input type="text" name="search_input" value="">';
   echo '<table>';
   echo '<tr><td colspan="5">Поиск: <input type="text" name="search_input" value="">
   <select>
