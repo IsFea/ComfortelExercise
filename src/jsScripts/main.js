@@ -16,3 +16,24 @@ $(document).on('click','#back',function(){
     $('main').html(data);
   });
 });
+
+$('body').on('submit','form',function(){
+  alert('Hello world');
+});
+
+function call() {
+  var msg   = $('#form-seacrh').serialize();
+  $.ajax({
+        method: 'POST',
+        cache: false,
+        url: 'src/php-scripts/query-table.php',
+        data: msg,
+        success: function(data) {
+          $('.user-table').html(data);
+          // alert(data);
+        },
+        error:  function(xhr, str){
+  alert('Возникла ошибка: ' + xhr.responseCode);
+        }
+  });
+}
