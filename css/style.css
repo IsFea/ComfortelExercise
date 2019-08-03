@@ -22,6 +22,9 @@ header {
   text-align: center;
   margin: 40px;
 }
+header .block{
+  border-radius: 0;
+}
 header > .block{
   display: inline-flex;
   margin: auto;
@@ -33,6 +36,9 @@ header > .block > span{
 }
 footer{
   text-align: center;
+}
+footer .block{
+  border-radius: 0;
 }
 footer > .block{
   display: inline-flex;
