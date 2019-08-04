@@ -11,11 +11,11 @@
         <br>Фамилия: <input type="text" name="last_name" value="">
         <br>Имя: <input type="text" name="name" value="">
         <br>Отчество: <input type="text" name="third_name" value="">
-        <br> Статус: <select name="status">
+        <!-- <br> Статус: <select name="status">
               <option value="Первый">Первый</option>
               <option value="Второй">Второй</option>
               <option value="Третий">Третий</option>
-        </select>
+        </select> -->
         <br><input type="submit" name="add" value="Добавить">
       </form>
       <form class="edit-user" id="#form-edit-user" action="javascript:void(null);" method="post" onsubmit="edit_user_ok()">
@@ -28,7 +28,7 @@
               <option value="Второй">Второй</option>
               <option value="Третий">Третий</option>
         </select>
-        <br>Удалить?<input type="checkbox" name="delete_edit" value="">
+        <!-- <br>Удалить?<input type="checkbox" name="delete_edit" value="1"> -->
         <br><input type="submit" name="edit" value="Ок">
       </form>
     </div>
